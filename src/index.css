@@ -41,17 +41,35 @@ body {
   min-height: 100vh;
 }
 
+/* Prevent default styles from taking over */
+ul,
+li,
+a {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
 #root {
   min-height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
 }
 
 main {
-  max-width: 40rem;
   text-align: center;
+}
+
+.app-root {
+  display: flex;
+  justify-content: space-between;
+
+  width: 75vw;
+  height: 100vh;
 }
 
 h1 {
