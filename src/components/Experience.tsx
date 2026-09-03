@@ -4,7 +4,7 @@ import ExperienceCard from './ExperienceCard'
 export default function Experience() {
   const jobs = [
     {
-      company: 'Computer Generated Solutions',
+      company: 'CGS',
       jobTitle: 'Full Stack Developer',
       datesWorked: 'Apr 2026 - Present',
       location: 'Remote, Canada',

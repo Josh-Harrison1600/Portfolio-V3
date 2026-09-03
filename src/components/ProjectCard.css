@@ -1,0 +1,16 @@
+.project-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
