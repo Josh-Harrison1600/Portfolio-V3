@@ -78,6 +78,7 @@ main {
 
 .main-content {
   display: flex;
+  gap: 82px;
   flex-direction: column;
   width: 60%;
   min-width: 0;
