@@ -30,7 +30,7 @@ export default function Experience() {
     {
       company: 'Cloud&More',
       jobTitle: 'Web Developer Intern',
-      datesWorked: 'May 2024 - Aug 2024',
+      datesWorked: 'May 2023 - Aug 2023',
       location: 'Moncton, NB, Canada',
       jobDescription:
         'Created an internal full-stack application with React, TypeScript Node.js, CSS, Tailwind, and Retrieval Augmented Generation. Deployed and managed a full-stack application using CI/CD, GitHub Actions, and Microsoft Azure services. Developed a bankruptcy processing form in React, using TypeScript and Tailwind CSS, tailored to client-specific needs. Integrated form state management and validation for a seamless and error-resistant user experience. Coordinated backend enhancements using Node.js for custom API logic and data handling.',
