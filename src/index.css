@@ -72,9 +72,15 @@ main {
 .app-root {
   display: flex;
   justify-content: space-between;
-
   width: 75vw;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 0;
 }
 
 h1 {

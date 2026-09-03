@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import './LanguageSwitcher.css'
 
@@ -8,14 +8,15 @@ export function LanguageSwitcher() {
   const isEnglish = active.startsWith('en')
   const targetLang = isEnglish ? 'ja' : 'en'
   const label = isEnglish ? t('lang.ja') : t('lang.en')
+  const [isTransitioning, setIsTransitioning] = useState(false)
 
   useEffect(() => {
     document.documentElement.lang = active
   }, [active])
 
-  function blackenScreen() {
-    console.log('test')
-  }
+  useEffect(() => {
+    if (!isTransitioning) return
+  }, [isTransitioning])
 
   return (
     <button
@@ -24,7 +25,7 @@ export function LanguageSwitcher() {
       aria-label={`${t('lang.label')}: ${label}`}
       onClick={() => {
         void i18n.changeLanguage(targetLang)
-        blackenScreen()
+        setIsTransitioning(true)
       }}
     >
       {label}
