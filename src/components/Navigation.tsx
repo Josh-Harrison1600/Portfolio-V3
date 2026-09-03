@@ -62,10 +62,10 @@ export default function Navigation() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#about">Experience</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="#about">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           </ul>
         </nav>

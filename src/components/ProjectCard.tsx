@@ -13,8 +13,8 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <div className="project-card">
-      <div className="project-image">
-        <img alt="project img" src={image} />
+      <div className="image-section">
+        <img className="project-image" alt="project img" src={image} />
       </div>
       <div className="project-info">
         <h1>{projectTitle}</h1>
