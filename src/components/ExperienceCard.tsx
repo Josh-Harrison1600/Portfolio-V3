@@ -20,7 +20,7 @@ export default function ExperienceCard({
       <div className="company-info">
         <h1>{company}</h1>
         <h2>{jobTitle}</h2>
-        <p>{datesWorked}</p>
+        <p className="date-worked-text">{datesWorked}</p>
         <p>{location}</p>
       </div>
 
