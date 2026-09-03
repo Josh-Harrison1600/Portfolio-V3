@@ -6,7 +6,7 @@
 .name-title-button {
   display: flex;
   flex-direction: column;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .name {
@@ -14,11 +14,39 @@
   line-height: 1;
 }
 
-.job-title {
+.left-p {
   padding-top: 0;
   text-align: left;
   margin: 0;
   line-height: 1.5;
+}
+
+.skills-section {
+  width: 0;
+  min-width: 100%;
+  overflow: hidden;
+  padding-bottom: 4rem;
+}
+
+.skills-track {
+  display: flex;
+  margin-top: 0.5rem;
+  width: max-content;
+  animation: skills-scroll 18s linear infinite;
+}
+
+.skill-item {
+  margin-right: 2rem;
+  white-space: nowrap;
+}
+
+@keyframes skills-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .links-and-footer {
@@ -29,12 +57,17 @@
 }
 
 .navigation-links {
-  color: red;
 }
 
 .socials {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-bottom: 12rem;
+  padding-bottom: 10rem;
+}
+
+.ul-list {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
 }

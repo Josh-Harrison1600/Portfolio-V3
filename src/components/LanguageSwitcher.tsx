@@ -13,6 +13,10 @@ export function LanguageSwitcher() {
     document.documentElement.lang = active
   }, [active])
 
+  function blackenScreen() {
+    console.log('test')
+  }
+
   return (
     <button
       type="button"
@@ -20,6 +24,7 @@ export function LanguageSwitcher() {
       aria-label={`${t('lang.label')}: ${label}`}
       onClick={() => {
         void i18n.changeLanguage(targetLang)
+        blackenScreen()
       }}
     >
       {label}
