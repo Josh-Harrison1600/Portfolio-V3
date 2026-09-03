@@ -52,6 +52,11 @@ a {
   color: inherit;
 }
 
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
 #root {
   min-height: 100vh;
   width: 100vw;
@@ -106,16 +111,6 @@ button {
   cursor: pointer;
 }
 
-.lang-switcher {
-  display: inline-flex;
-  margin: 0 0 1.5rem;
-  padding: 0;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  overflow: hidden;
-  min-inline-size: 0;
-}
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -128,17 +123,6 @@ button {
   border: 0;
 }
 
-.lang-switcher button {
-  border: 0;
-  padding: 0.45rem 1rem;
-  color: var(--text);
-  background: transparent;
-}
-
-.lang-switcher button.active {
-  color: var(--text-h);
-  background: var(--accent-bg);
-}
 
 .counter {
   margin: 0.5rem 0 1.25rem;

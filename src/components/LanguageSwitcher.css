@@ -1,0 +1,22 @@
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 0.25rem;
+  color: var(--text);
+  background: transparent;
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.lang-switcher:hover {
+  color: var(--text-h);
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}

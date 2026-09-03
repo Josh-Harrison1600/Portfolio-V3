@@ -1,7 +1,40 @@
 .navigation-component {
-  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-title-button {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.name {
+  margin-top: 4.5rem;
+  line-height: 1;
+}
+
+.job-title {
+  padding-top: 0;
+  text-align: left;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.links-and-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .navigation-links {
   color: red;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 12rem;
 }
