@@ -1,0 +1,12 @@
+.experience-card {
+  display: flex;
+  justify-content: centerr;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  border: 1px yellow solid;
+}
