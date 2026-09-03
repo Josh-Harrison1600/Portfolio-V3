@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "Welcome",
+    "subtitle": "React + TypeScript + Vite",
+    "description": "This site supports English and Japanese. Use the language switcher to change locale.",
+    "count": "Count is {{count}}",
+    "editHint": "Edit <code>src/App.tsx</code> and save to test HMR"
+  },
+  "lang": {
+    "label": "Language",
+    "en": "English",
+    "ja": "日本語"
+  }
+}

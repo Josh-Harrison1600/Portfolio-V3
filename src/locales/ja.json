@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "ようこそ",
+    "subtitle": "React + TypeScript + Vite",
+    "description": "このサイトは英語と日本語に対応しています。言語スイッチャーで表示言語を切り替えられます。",
+    "count": "カウントは {{count}} です",
+    "editHint": "<code>src/App.tsx</code> を編集して保存すると HMR を確認できます"
+  },
+  "lang": {
+    "label": "言語",
+    "en": "English",
+    "ja": "日本語"
+  }
+}
