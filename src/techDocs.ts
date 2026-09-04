@@ -1,0 +1,18 @@
+export const TECH_DOCS: Record<string, string> = {
+  FaAws: 'https://docs.aws.amazon.com/',
+  FaCss3Alt: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+  FaHtml5: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+  FaJs: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+  FaNodeJs: 'https://nodejs.org/en',
+  FaPython: 'https://www.python.org/',
+  FaReact: 'https://react.dev/',
+  SiFastapi: 'https://fastapi.tiangolo.com/',
+  SiMongodb: 'https://www.mongodb.com/docs/',
+  SiRedhatopenshift: 'https://docs.openshift.com/',
+  SiTerraform: 'https://developer.hashicorp.com/terraform/docs',
+  SiTypescript: 'https://www.typescriptlang.org/docs/',
+  TbSql: 'https://www.postgresql.org/docs/current/sql.html',
+  VscAzure: 'https://learn.microsoft.com/en-us/azure/',
+  VscMcp: 'https://modelcontextprotocol.io/',
+  SiGithubactions: 'https://github.com/features/actions',
+}

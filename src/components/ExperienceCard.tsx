@@ -1,4 +1,6 @@
+import type { IconType } from 'react-icons'
 import './ExperienceCard.css'
+import TechIcons from './TechIcons'
 
 type ExperienceCardProps = {
   company: string
@@ -6,6 +8,7 @@ type ExperienceCardProps = {
   datesWorked: string
   location: string
   jobDescription: string
+  techIcons: IconType[]
 }
 
 export default function ExperienceCard({
@@ -14,6 +17,7 @@ export default function ExperienceCard({
   datesWorked,
   location,
   jobDescription,
+  techIcons,
 }: ExperienceCardProps) {
   return (
     <div className="experience-card">
@@ -26,6 +30,7 @@ export default function ExperienceCard({
 
       <div className="experience-description">
         <p>{jobDescription}</p>
+        <TechIcons icons={techIcons} />
       </div>
     </div>
   )

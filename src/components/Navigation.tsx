@@ -71,9 +71,25 @@ export default function Navigation() {
         </nav>
 
         <footer className="socials">
-          <FaLinkedin size={32} />
-          <FaGithub size={32} />
-          <MdOutlineMail size={32} />
+          <a
+            href="https://www.linkedin.com/in/josh-harrison2283/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin size={32} />
+          </a>
+          <a
+            href="https://github.com/Josh-Harrison1600"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub size={32} />
+          </a>
+          <a href="mailto:joshharrison2283@gmail.com" aria-label="Email">
+            <MdOutlineMail size={32} />
+          </a>
         </footer>
       </div>
     </aside>

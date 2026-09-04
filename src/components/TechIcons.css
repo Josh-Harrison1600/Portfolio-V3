@@ -1,0 +1,14 @@
+.tech-icons {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.tech-icons a {
+  color: inherit;
+  line-height: 0;
+}
+
+.tech-icons a:hover {
+  color: var(--text-h);
+}

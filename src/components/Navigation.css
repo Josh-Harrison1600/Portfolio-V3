@@ -72,6 +72,15 @@
   padding-bottom: 10rem;
 }
 
+.socials a {
+  color: inherit;
+  line-height: 0;
+}
+
+.socials a:hover {
+  color: var(--text-h);
+}
+
 .ul-list {
   display: flex;
   flex-direction: column;

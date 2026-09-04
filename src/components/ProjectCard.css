@@ -8,6 +8,11 @@
 .project-info {
   display: flex;
   flex-direction: column;
+  text-align: right;
+}
+
+.project-info .tech-icons {
+  justify-content: flex-end;
 }
 
 .image-section {
